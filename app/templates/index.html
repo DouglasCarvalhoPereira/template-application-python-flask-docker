@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="">
+    <div class="section1 container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="row w-100" style="margin:150px;">
+          <div class="col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+            <video controls class="w-100">
+              <source src="{{ url_for('static', filename='video/institucionalhc.mp4') }}" type="video/mp4">
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <p>Este é o texto ao lado do vídeo. Aqui você pode colocar qualquer informação que desejar.</p>
+            <button class="btn btn-primary mt-3">Clique Aqui</button>
+          </div>
+        </div>
+      </div>
+{% endblock %}

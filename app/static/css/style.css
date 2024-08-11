@@ -1,0 +1,42 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+.navbar {
+    height: 80px;
+    font-family: "Roboto", sans-serif;
+    background-color: #004763;
+}
+
+.navbar-brand {
+    position: inherit;
+    justify-content:end;
+}
+.font-brand-1 {
+    font-family: "Tahoma", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-brand-2 {
+    font-family: "Tahoma", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+.section1 {
+    background-image: url(../images/background.png);
+    height: 500px; /* Ajuste a altura conforme necessário */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
