@@ -1,7 +1,3 @@
-Certainly! Here’s a README template for a Python Flask application that’s containerized using Docker:
-
----
-
 # 🐍 Python Flask Application with Docker
 
 This repository contains a template for a Python Flask web application, fully containerized using Docker. It's a minimal setup to get you started with building and deploying your Flask applications.
@@ -102,7 +98,3 @@ If you'd like to contribute to this project, please fork the repository and use 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-This README provides a comprehensive guide for anyone looking to understand, set up, and run the Flask application, both locally and with Docker. Adjust the details to suit your specific project structure and requirements!
